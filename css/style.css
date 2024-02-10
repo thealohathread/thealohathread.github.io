@@ -1,17 +1,4 @@
 /**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
-/*
-Author       : Revolve
-Template Name: Minimal Blog Template
-Author URI : https://themefisher.com/
-Description: Revolve,blog,minimal,multipage,contact 
-Version      : 1.0
-*/
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 
@@ -79,6 +66,31 @@ Version      : 1.0
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Lato:400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans|Unna:400,700&display=swap");
 
+
+.container
+{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+.blog-text
+{
+  text-align: left;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.header-body 
+{
+    display: inline-block;
+    list-style-type:none;
+    margin:0 auto; 
+    margin-top:20px;
+    text-align: left;
+}
+
+
 body,
 p {
   font-family: "Open Sans", sans-serif;
@@ -94,6 +106,21 @@ html {
   width: 100%;
   height: 100%;
 }
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 6rem;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 h1,
 .h1,
@@ -112,7 +139,10 @@ h6,
   font-family: "Unna", serif;
 }
 
-h1,
+h1 {
+  text-align: center;
+}
+
 .h1 {
   font-size: 38px;
   line-height: 48px;
