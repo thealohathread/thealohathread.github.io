@@ -1,1 +1,1 @@
-Check out The Aloha Thread at thealohathread.github.io
+Check out [The Aloha Thread](thealohathread.github.io)
