@@ -314,7 +314,7 @@
 // timer countdown
 	function makeTimer() {
 
-		var endTime = new Date("05 July 2024 23:59:00 GMT-0500");			
+		var endTime = new Date("26 July 2024 23:59:00 GMT-0500");			
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
